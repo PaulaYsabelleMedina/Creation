@@ -76,28 +76,37 @@ div.jumbotron{
   font-family: 'Reem Kufi', sans-serif;
 }
 
-@media only screen and (max-width: 767px) { 
+/*@media only screen and (max-width: 767px) { 
   .questions{
     font-size: 200%;
   }
   label{
     font-size: 15px;
   }
-  #text, #textarea{
-    padding: 0;
-  }
+ 
   textarea#textarea.form-control{
     height: 8vh;
   }
 }
-
-h3.heading{
+*/
+/*h3.heading{
   font-size: 300%;
 
-}
+}*/
 label.labelformessage{
  color: white;
 }
-#textarea{
-  height: 15vh;
+#text, #textarea{
+    padding: 0;
+  }
+
+div.row{
+  margin-right:0;
+  margin-left:0;
+}
+div.col-sm-12.col-lg-7.col-md-7{
+  padding:  15px;
+}
+p.questions.margin-for-the-nav{
+  margin-top: 16px;
 }
