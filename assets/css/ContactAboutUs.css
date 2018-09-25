@@ -73,7 +73,7 @@ div.jumbotron{
   font-size: 300%;
   color: white;
   text-shadow: 2px 2px black;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 @media only screen and (max-width: 767px) { 
@@ -95,8 +95,7 @@ h3.heading{
   font-size: 300%;
 
 }
-label{
-  font-family: 'Fredoka One', cursive;
+label.labelformessage{
  color: white;
 }
 #textarea{
